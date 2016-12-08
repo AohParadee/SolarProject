@@ -10,9 +10,9 @@ import android.view.Window;
 import android.widget.ImageView;
 
 public class Splashscreen extends AppCompatActivity {
+
     Handler handler;
     Runnable runnable;
-
     MediaPlayer mpBgm;
 
     @Override
@@ -27,14 +27,14 @@ public class Splashscreen extends AppCompatActivity {
 
         // Load the ImageView that will host the animation and
         // set its background to our AnimationDrawable XML resource.
-        ImageView img = (ImageView)findViewById(R.id.load_image);
-        img.setBackgroundResource(R.drawable.animations);
+            ImageView img = (ImageView)findViewById(R.id.load_image);
+            img.setBackgroundResource(R.drawable.animations);
 
         // Get the background, which has been compiled to an AnimationDrawable object.
-        AnimationDrawable frameAnimation = (AnimationDrawable) img.getBackground();
+            AnimationDrawable frameAnimation = (AnimationDrawable) img.getBackground();
 
         // Start the animation (looped playback by default).
-        frameAnimation.start();
+            frameAnimation.start();
 
 
         handler = new Handler();
