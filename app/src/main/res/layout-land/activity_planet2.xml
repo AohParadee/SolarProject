@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/activity_planet2"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_planet"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.aoh.solarproject.PlanetActivity2"
-    android:background="@drawable/bg">
+    android:background="@drawable/bg"
+    tools:context="com.example.aoh.solarproject.PlanetActivity2">
 
 
     <pl.droidsonroids.gif.GifImageView
         android:layout_height="match_parent"
         android:layout_width="match_parent"
-        android:background="@drawable/bgbb"
-        />
+        android:background="@drawable/bgbb" />
 
     <ImageView
         app:srcCompat="@drawable/ptext"
@@ -40,32 +39,32 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:layout_marginLeft="80dp"
-            android:layout_marginRight="70dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="60dp"
             android:layout_marginBottom="15dp">
 
             <LinearLayout
                 android:orientation="vertical"
                 android:layout_height="match_parent"
                 android:elevation="0dp"
-                android:layout_width="169dp"
-                android:weightSum="1">
+                android:weightSum="1"
+                android:layout_width="140dp">
 
                 <ImageView
                     app:srcCompat="@drawable/saturn66"
                     android:id="@+id/imageSaturn1"
-                    android:layout_width="110dp"
-                    android:layout_marginTop="100dp"
-                    android:layout_marginRight="40dp"
-                    android:layout_height="100dp"
-                    android:layout_marginLeft="15dp" />
+                    android:layout_marginTop="90dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_width="95dp"
+                    android:layout_height="90dp" />
 
                 <ImageView
-                    android:layout_width="60dp"
                     app:srcCompat="@drawable/venus22"
                     android:id="@+id/imageVenus1"
                     android:onClick="clickVenus"
-                    android:layout_marginLeft="102dp"
+                    android:layout_marginLeft="85dp"
+                    android:layout_width="55dp"
                     android:layout_height="50dp" />
 
                 <ImageView
@@ -76,24 +75,24 @@
                     android:layout_marginRight="100dp"
                     android:layout_height="50dp"
                     android:layout_width="50dp"
-                    android:layout_marginLeft="20dp" />
+                    android:layout_marginLeft="10dp" />
             </LinearLayout>
 
             <LinearLayout
                 android:orientation="vertical"
-                android:layout_width="141dp"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:layout_width="123dp">
 
                 <ImageView
                     app:srcCompat="@drawable/sunnew1"
                     android:id="@+id/imageSun1"
                     android:layout_width="match_parent"
                     android:onClick="clickSun"
-                    android:layout_marginTop="123dp"
+                    android:layout_marginTop="120dp"
                     android:layout_marginLeft="10dp"
                     android:scaleType="centerCrop"
-                    android:layout_height="120dp"
-                    android:layout_marginRight="2dp" />
+                    android:layout_marginRight="2dp"
+                    android:layout_height="100dp" />
 
                 <ImageView
                     android:layout_width="61dp"
@@ -107,53 +106,49 @@
 
             <LinearLayout
                 android:orientation="vertical"
-                android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:weightSum="1">
+                android:weightSum="1"
+                android:layout_width="80dp">
 
                 <ImageView
                     android:layout_width="match_parent"
                     app:srcCompat="@drawable/jupiter55"
                     android:id="@+id/imageJupiter1"
-                    android:layout_marginTop="110dp"
+                    android:layout_marginTop="95dp"
                     android:layout_marginLeft="5dp"
                     android:layout_weight="0.34"
-                    android:layout_height="65dp"
-                    android:layout_marginRight="5dp" />
+                    android:layout_marginRight="5dp"
+                    android:layout_height="60dp" />
 
                 <ImageView
                     app:srcCompat="@drawable/mercury11"
                     android:id="@+id/imageMercury1"
-                    android:layout_marginTop="0dp"
                     android:layout_marginRight="40dp"
                     android:layout_weight="0.32"
                     android:layout_width="45dp"
-                    android:layout_height="35dp" />
+                    android:layout_height="35dp"
+                    android:layout_marginTop="10dp" />
 
                 <ImageView
                     app:srcCompat="@drawable/uranus77"
                     android:id="@+id/imageUranus1"
                     android:layout_width="match_parent"
                     android:layout_marginRight="20dp"
-                    android:layout_height="65dp" />
+                    android:layout_height="65dp"
+                    android:layout_marginTop="10dp" />
             </LinearLayout>
 
             <LinearLayout
-                android:orientation="vertical"
-                android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:weightSum="1">
+                android:layout_width="60dp">
 
                 <ImageView
                     app:srcCompat="@drawable/earth33"
                     android:id="@+id/imageEarth"
-                    android:layout_height="60dp"
-                    android:layout_marginTop="170dp"
+                    android:layout_marginTop="155dp"
                     android:layout_marginRight="10dp"
-                    android:layout_weight="0.19"
-                    android:layout_width="80dp" />
+                    android:layout_width="75dp"
+                    android:layout_height="75dp" />
             </LinearLayout>
 
         </LinearLayout>

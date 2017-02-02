@@ -11,20 +11,6 @@
     tools:context="com.example.aoh.solarproject.MainActivity"
     android:background="@drawable/bgmain">
 
-    <ToggleButton
-        android:id="@+id/bgm"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:layout_marginLeft="570dp"
-        android:layout_marginTop="300dp"
-        android:background="@drawable/sound_button"
-        android:checked="true"
-        android:textOn=""
-        android:textOff="X"
-        android:textColor="@android:color/holo_red_dark"
-        android:textSize="30sp"
-        android:textStyle="bold" />
-
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
@@ -55,7 +41,7 @@
                 android:background="@drawable/buttonplanet"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
-                />
+                android:onClick="clickPlanet" />
 
             <Button
                 android:layout_width="match_parent"
@@ -65,7 +51,7 @@
                 android:background="@drawable/buttontrick"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
-                />
+                android:onClick="clickTrick" />
 
         </LinearLayout>
 
